@@ -1,0 +1,5 @@
+.header {
+    padding: 10px;
+    grid-area: header;
+    background-image: linear-gradient(to right, #3c86a6, #f0f7fa);
+}

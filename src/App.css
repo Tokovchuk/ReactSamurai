@@ -1,3 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .app-wrapper {
   margin: 0 auto;
 
@@ -5,25 +24,11 @@
   max-width: 1366px;
 
   display: grid;
-  grid-template-rows: 40px 1fr;
+  grid-template-rows: 50px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   grid-template-areas:
   "header header"
   "sidebar main";
   
-}
-
-.header {
-  grid-area: header;
-  background-image: linear-gradient(to right, #3c86a6, #f0f7fa);}
-
-.sidebar {
-  grid-area: sidebar;
-  background-color:#3c86a6;
-}
-
-.content {
-  grid-area: main;
-  background-color: #f0f7fa;
 }

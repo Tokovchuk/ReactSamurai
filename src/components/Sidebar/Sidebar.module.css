@@ -1,0 +1,13 @@
+.sidebar {
+    padding: 20px;
+    grid-area: sidebar;
+    background-color: #3c86a6;
+    height: 100%;
+}
+
+.sidebar__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+

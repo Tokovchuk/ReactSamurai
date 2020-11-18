@@ -1,0 +1,21 @@
+.sidebar__item {
+	margin-bottom: 10px;
+	color: #f0f7fa;
+	font-size: 20px;
+	line-height: 1;
+}
+
+.sidebar__item:last-child {
+	margin-top: 50px;
+}
+
+.sidebar__itemActive {
+	color: black;
+	font-weight: 700;
+}
+
+
+.sidebar__item a {
+	text-decoration: none;
+	color: inherit;
+}

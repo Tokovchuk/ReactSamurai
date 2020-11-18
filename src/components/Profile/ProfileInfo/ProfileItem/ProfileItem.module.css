@@ -1,0 +1,9 @@
+.profile__item {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.profile__item span {
+	font-weight: 500;
+}
