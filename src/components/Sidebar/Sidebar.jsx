@@ -6,11 +6,12 @@ const Sidebar = () => {
     return (
         <aside className={s.sidebar}>
             <ul className={s.sidebar__list}>
-                <SidebarItem title='Profile' />
-                <SidebarItem title='Messages' />
-                <SidebarItem title='News' />
-                <SidebarItem title='Music' />
-                <SidebarItem title='Settings' />
+                <SidebarItem title='Profile' href='/profile' />
+                <SidebarItem title='Messages' href='/dialogs' />
+                <SidebarItem title='News' href='/news' />
+                <SidebarItem title='Music' href='/music' />
+                <SidebarItem title='Users' href='/users' />
+                <SidebarItem title='Settings' href='/settings' />
             </ul>
         </aside>
     );

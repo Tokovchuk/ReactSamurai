@@ -5,6 +5,16 @@
 	line-height: 1;
 }
 
+.sidebar__item a:hover,
+.sidebar__item a.active:hover {
+	color: #000000;
+}
+
+.sidebar__item a.active {
+	color: navy;
+	font-weight: 500;
+}
+
 .sidebar__item:last-child {
 	margin-top: 50px;
 }

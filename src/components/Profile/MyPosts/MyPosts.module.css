@@ -1,0 +1,31 @@
+.post {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+}
+
+.post__text {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 3px;
+    min-width: 300px;
+}
+
+.post__text span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    color: grey;
+}
+
+.posts__input {
+    margin-bottom: 20px;
+}

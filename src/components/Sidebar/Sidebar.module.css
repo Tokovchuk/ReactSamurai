@@ -2,7 +2,6 @@
     padding: 20px;
     grid-area: sidebar;
     background-color: #3c86a6;
-    height: 100%;
 }
 
 .sidebar__list {

@@ -1,15 +1,17 @@
-import s from './Profile.module.css'
 import ProfileImage from "./ProfileImage/ProfileImage";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import React from 'react';
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 
-const Profile = () => {
+const Profile = (props) => {
+
     return (
-        <main className={s.profile}>
+        <section>
             <ProfileImage />
             <ProfileInfo />
-        </main>
+            <MyPostsContainer />
+        </section>
     );
 };
 
