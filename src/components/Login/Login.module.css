@@ -1,0 +1,15 @@
+.login__form {
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+
+.form__error {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid red;
+    color: red;
+    font-weight: 500;
+}
